@@ -315,6 +315,9 @@ nav a {
 #home a {
   text-decoration: none;
 }
+#home h1{
+  z-index: 1;
+}
 .img-home {
   width: 100vw;
   height: 100vh;
