@@ -471,6 +471,9 @@ nav a {
 #about img {
   width: 50vw;
   height: 30vw;
+  
+  transition: all 1s ease-in-out;
+  
 }
 .about-text {
   padding-left: 5vw;
@@ -478,6 +481,8 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  transition: all 1s ease-in-out;
 }
 .about-text h2 {
   padding-bottom: 20px;
@@ -487,6 +492,14 @@ nav a {
 .about-text p {
   color: white;
   font-size: 0.8rem;
+}
+#about:hover .about-text{
+  transform: translateX(100%);
+  transition: all 1s ease-in-out;
+}
+#about:hover img{
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
 }
 
 .about-text .text-container a {
@@ -715,7 +728,7 @@ border-radius: 50%;
   text-align: center;
   padding-bottom: 50px;
   font-size: 3.5rem;
-  margin-top: -80px;
+  margin-top: -30px;
   font-family: "Bungee", cursive;
 }
 /* contact section */
