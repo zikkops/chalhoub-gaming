@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleblack.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <script src="scripts.js" defer></script>
+    <title>Underground Gaming | Gaming Lounge | Network |cybercafe</title>
+</head>
+<body>
+    
+    <div class="nav-bg"></div>
+    <!-- hamburger menu -->
+   
+
+    <nav class="nav">
+        
+              <div id="menu1Toggle" class="toggle-invisible">
+                <a href="#home" class="logo-invis"><img src="/img/underground gaming-min.png" alt="" class="home-logo"></a>
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu1">
+            <li class="home1-menu"><a href="#home">Home</a></li>
+            <li class="home-menu"><a href="#about">About</a></li>
+            <li class="about-menu"><a href="#games">Games</a></li>
+            <li class="exp-menu"><a href="#contact">Contact</a></li>
+            <li class="edu-menu"><a href="#form">Join us</a></li>
+          </ul>
+        </div>
+  
+        <div class="main-nav">
+        <ul class="main-ul">
+            <li class="logo"><a href="#home"><img src="/img/underground gaming-min.png" alt="" class="home-logo"></a></li>
+            <div class="nav-list">
+                <li class="a-hover" ><a href="#about">About</a></li>
+                <li class="a-hover"><a href="#games">Games</a></li>
+                <li class="a-hover"><a href="#contact">Contact</a></li>
+                <li class="a-hover"><a href="#form">Join Us</a></li>
+            </div>
+        </ul>
+    </nav></div>
+    <main id="home">
+        <div class="img-home">
+            <img src="/img/IMG_2280-2.jpg" alt="">
+            <h1 class="bg-text">LEVEL UP,POWER UP, Win, RANK UP</h1>
+            
+            <h1 class="bg-text2">POSITION, AIM, ONETAP, HEADSHOT </h1>
+            <h1 class="bg-text3">FARM, ITEMISE, FIGHT, RESPAWN </h1>
+            <h1 class="bg-text4">With Your New Family</h1>
+
+            <!-- <h1>Your Next Gaming Destination</h1> -->
+         </div>
+            <div id="pointer-down">
+                <a href="#about">
+                <h4>Check Us Out</h4>
+                <div class="arrow">
+                    <div class="left-arrow"></div>
+                    <div class="right-arrow"></div>
+                    <div class="middle-arrow"></div>
+                </div>
+            </a>
+            </div>
+    </main>
+    <main    id="about">
+        <div class="about-text">
+            <div class="text-container fade-in left slide-in">
+                <h5>About Us</h5>
+                <h2>Underground<span> Gaming</span></h2>
+                <p>We are a Family,  created by gamers for gamers.Chalhoub Gaming  strive’s to provide an immersive gaming experience like no other, combining a unique atmosphere with high level competitive and casual gaming.It is our goal to create a positive and friendly environment for people to come together and form lifelong bonds with people. With our high end equpiment you will conquer your foes and be Victorious</p>
+                <a href="#pc">About Our Pc's</a>
+            </div>
+        </div>
+        <img src="/img/slider-02-min.jpg" alt="">
+    </main>
+    <div id="seperator"></div>
+    <main    id="games">
+        <div class="games-container">
+            <div class="img-container">
+                <img src="/img/CS_global.webp" alt="">
+                <div class="img-text-container">
+                <h4>CS:GO</h4>
+                <p>Counter-Strike: Global Offensive is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/87280810-7900-11ea-b5e3-c7e1a8c2c12b.jfif" alt="">
+                <div class="img-text-container">
+                    <h4>Call Of Duty Warzone</h4>
+                    <p>
+                        Warzone is a new, massive combat experience with up to 150 players from the world of Call of Duty: Modern Warfare</p>
+                </div>
+            </div>
+            <div class="img-container"
+            ><img src="/img/3H8Ur89ptqGLvNcCShW6Dh-min.jpg" alt="">
+            <div class="img-text-container">
+                <h4>Valorant</h4>
+                <p>Valorant is a team-based tactical shooter and first-person shooter set in the near-future</p>
+                </div>
+        </div>
+            <div class="img-container">
+                <img src="/img/dota_heroes-min.png" alt="">
+                <div class="img-text-container">
+                    <h4>Dota</h4>
+                    <p>Dota 2 is a multiplayer online battle arena video game in which two teams of five players compete to collectively destroy a large structure defended by the opposing team</p>
+                    </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/fortnite-chapter2-season3-1920x1080-239458787-min.jpg" alt="">
+                <div class="img-text-container">
+                    <h4>Fortnite</h4>
+                    <p>Fortnite Battle Royale is a player-versus-player game for up to 100 players, allowing one to play alone, in a duo, or in a squad</p>
+                    </div>
+            </div>
+            <div class="img-container">
+                <img src="/img/league-of-legends-min.jpg" alt="">
+                <div class="img-text-container">
+                    <h4>League Of Legends</h4>
+                    <p>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other's base</p>
+                    </div>
+            </div>
+            
+        </div>
+    </main>
+    <div id="seperator"></div>
+    <main    id="pc">
+        
+        
+        <div class="pc-text fade-in left slide-in">
+            <div class="text-container">
+            <h5>Gaming Powerhouse</h5>
+            <h2>Our Pc</h2>
+            <div class="spec-section-float">
+            <div class="specs-left">
+            <h3>Gold section</h3>
+            <div class="specs-left-float">
+            <ul>
+                <li>Graphics Card: 2080 ti</li>
+                <li>Ram: 16gb ram</li>
+                <li>Processor: i9 9900k</li>
+                <li>Headset: cloud 2 hyperx</li>
+                <li>Kboard: hyperx alloy elite</li>
+                <li>Mouse: hyperx pulsefire fps pro</li>
+                <li>Monitor: zoe 240hz</li>
+            </ul>
+            <img src="/img/IMG_2267.jpg" alt="">
+        </div>
+        </div>
+        <div class="pc-seperator"></div>
+        <div class="specs-right">
+            <h3>VIP section</h3>
+            <div class="specs-right-float">
+            <ul>
+                <li>Graphics Card: 1080 ti</li>
+                <li>Ram: 16gb ram</li>
+                <li>Processor: i7 9900k</li>
+                <li>Headset: cloud 2 hyperx</li>
+                <li>Kboard: hyperx alloy elite</li>
+                <li>Mouse: hyperx pulsefire fps pro</li>
+                <li>Monitor:  144hz</li>
+            </ul>
+            <img src="/img/IMG_2273.jpg" alt="">
+        </div>
+        </div>
+    </div>
+            </div>
+        </div>
+        
+    </main>
+    <div id="seperator"></div>
+    <main id="slogan">
+        <h1>Are you up for a challange ? </h1>
+        <h2> Power up, Level Up , Rank Up</h2>
+    </main>
+    <div id="seperator"></div>
+    <main id="contact">  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4507.562040398543!2d35.552291942632166!3d33.87781109317292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17796494aa9d%3A0x436de7d064eed3a4!2sUnderground%20gaming%20centre.!5e0!3m2!1sen!2slb!4v1599594234342!5m2!1sen!2slb" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+        <div class="contact-text">
+            <div class="text-container fade-in right slide-in">                
+                    <h2>Contact</h2>
+                    <ul>
+                        <li class="title"><img src="icons/location.png" alt="">Location</li>
+                        <li> Rawda |  wavymart street chalhoub building</li>
+                        <li class="title"><img src="icons/phone.png" alt="">Phone</li>
+                        <li>70484356</li>
+                        <li class="title"><img src="icons/email.png" alt="">E-mail</li>
+                        <li>tonychalhoub85@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+                    
+        </div>
+    </main>
+    <div id="seperator"></div>
+    <main id="loop">
+        <!-- <a href="#" id="press_btn">Press Me</a> -->
+        <span id="press_btn">Press Me</span>
+        <h1 id="h1"></h1>
+        <table id="table" style="width:100%">
+            <tr id="table-word">
+              <th>Firstname</th>
+              <th>Lastname</th> 
+              <th>Age</th>
+            </tr>
+            <tr id="table-word">
+              <td>Jill</td>
+              <td>Smith</td>
+              <td>50</td>
+            </tr>
+            <tr id="table-word">
+              <td>Eve</td>
+              <td>Jackson</td>
+              <td>94</td>
+            </tr>
+            <tr id="table-word">
+              <td>John</td>
+              <td>Doe</td>
+              <td>80</td>
+            </tr>
+          </table>
+    </main>
+    <div id="seperator"></div>
+    <main id="form-section">
+        <h1>Your First Step To Join Our Comunity</h1>
+        <form name="contact-info" data-netlify="true" id="form">
+            <div class="left-form">
+            <div class="form">
+              <input type="text " name="name" required autocomplete="off" />
+              <label for="name" class="label-name">
+                <span class="content-name">Name</span>
+              </label>
+            </div>
+            <div class="form">
+              <input type="text " name="E-mail" required autocomplete="off" />
+              <label for="E-mail" class="label-name">
+                <span class="content-name">E-mail</span>
+              </label>
+            </div>
+            <div class="form">
+              <input
+                type="text "
+                name="Phone-number"
+                required
+                autocomplete="off"
+              />
+              <label for="Phone-number" class="label-name">
+                <span class="content-name">Phone Number </span>
+              </label>
+            </div>
+            </div>
+            <div class="form big-box">
+              <textarea name="Message" id="" cols="30" rows="10"></textarea>
+              <label for="Message" class="label-name">
+                <span class="content-name message">Message </span>
+              </label>
+            </div>
+            <button id="submit-btn">Submit</button>
+          </form>
+
+    </main>
+    <footer id="footer">
+        <div class="top-container">
+        <div class="footer-text">
+         <h1>Let’s Grow together</h1>
+         <h2>Join Us And Book Your PC</h2>
+        </div>
+        <div class="logo-container">
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">a</a> </li>
+                <li><a href="https://www.instagram.com/?hl=en" target="_blank">a</a> </li>
+                <li><a href="https://web.whatsapp.com/" target="_blank">a</a> </li>
+            </ul>
+        </div>
+    </div>
+        <div class="footer-credits">
+            <h5> &copy;copyright 2020, Underground Gaming </h5>
+            <h5>Developed By Mark Zakkak <br>Number 71727031</h5>
+        </div>
+    </footer>
+    
+</body>
+</html>
