@@ -1305,3 +1305,11 @@ section.parallax.parallax-9 {
 .invis{
   display: none;
 }
+#contact-1 ul li {
+  transition: all ease-in-out 1s;
+}
+#contact-1:hover ul li {
+  transform: scale(1.2) ;
+  transition: all ease-in-out 1s;
+
+}
