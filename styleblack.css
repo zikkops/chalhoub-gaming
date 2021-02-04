@@ -721,6 +721,7 @@ border-radius: 50%;
   text-align: center;
   font-size: 3.5rem;
   font-family: "Bungee", cursive;
+  z-index: 1;
 }
 #slogan h2 {
   width: 100%;
@@ -1239,14 +1240,14 @@ section.parallax.parallax-2{
 section.parallax.parallax-3 {  background-color: black;
 }
 section.parallax.parallax-4 {  
-  background-image: url("img/photo-1511512578047-dfb367046420.jfif");
+  background-image: url("img/photo-1511512578047-dfb367046420.jpg");
   background-position: 100% 100%;
 }
 section.parallax.parallax-5 {background-color: black;
 }
 section.parallax.parallax-6{ 
   
-  background-image: url("img/photo-1538481199705-c710c4e965fc.jfif");
+  background-image: url("img/photo-1538481199705-c710c4e965fc.jpg");
   background-position: 100% 100%;
 }
 section.parallax.parralax-6 #container{
@@ -1255,7 +1256,7 @@ section.parallax.parralax-6 #container{
 section.parallax.parallax-7 {background-color: black;
 }
 section.parallax.parallax-8 {  
-  background-image: url("img/photo-1552820728-8b83bb6b773f.jfif");
+  background-image: url("img/photo-1552820728-8b83bb6b773f.jpg");
   background-position: 100% 100%;
 }
 section.parallax.parallax-9 {
