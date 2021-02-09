@@ -102,7 +102,6 @@ function appear() {
     }
 
 var check =document.getElementsByName("Seat");
-console.log(check.length);
 for (var a=0;a<check.length;a++){
     check[a].onchange = function(){
         document.getElementById("chosenPc").innerHTML ="<ul>";
