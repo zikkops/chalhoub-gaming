@@ -69,3 +69,34 @@ function appear() {
     var element = document.getElementById("myAnimation");
     element.classList.remove("invis");
   }
+
+  function addLeadingZero(number){
+    if(number<10){
+        return "0" +number.toString();
+    } else{
+        return number.toString();
+    }
+  }
+
+  window.setInterval(function(){
+
+      var currentTime= new Date()
+      var hours= currentTime.getHours();
+      var mins= currentTime.getMinutes();
+      var secs= currentTime.getSeconds();
+      document.getElementById("hours").innerHTML=addLeadingZero( hours);
+      document.getElementById("minutes").innerHTML=addLeadingZero (mins);
+      document.getElementById("seconds").innerHTML=addLeadingZero (secs);
+
+
+  }
+      
+    ,1000);
+
+    document.getElementById("color_ball").onchange=function(){
+        var selectedField = document.getElementById("color_ball");
+        var selectedOption = selectedField.options.selectedIndex
+        var selectedValue = selectedField.options[selectedOption]
+        var value=selectedValue.innerHTML
+        document.getElementById("myAnimation").style.backgroundColor =value;
+    }

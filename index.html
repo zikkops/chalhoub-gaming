@@ -26,6 +26,7 @@
         <span></span>
         <span></span>
         <ul id="menu1">
+           
             <li class="home1-menu"><a href="#home">Home</a></li>
             <li class="home-menu"><a href="#about">About</a></li>
             <li class="about-menu"><a href="#games">Games</a></li>
@@ -37,7 +38,17 @@
         <div class="main-nav">
         <ul class="main-ul">
             <li class="logo"><a href="#home"><img src="/img/underground gaming-min.png" alt="" class="home-logo"></a></li>
+            <li id="clock">
+                <div id="relogio">
+                    <span id="hours">00</span> :
+                    <span id="minutes">00</span> :
+                    <span id="seconds">00</span>
+                </div>
+                
+            </li>
+
             <div class="nav-list">
+                
                 <li class="a-hover" ><a href="#about">About</a></li>
                 <li class="a-hover"><a href="#games">Games</a></li>
                 <li class="a-hover"><a href="#contact">Contact</a></li>
@@ -231,6 +242,14 @@
             <p>
                 <button id="btn-appear"  onclick="appear()">Click Here To Start Playing</button> 
             </p>
+            <form>
+                <select id="color_ball">
+                    <option value="opt1">blue</option>
+                    <option value="opt2">red</option>
+                    <option value="opt3">green</option>
+                    <option value="opt4">white</option>
+                </select>
+            </form>
                 
             <div id ="myContainer">
             <div id ="myAnimation" class="invis"></div>
