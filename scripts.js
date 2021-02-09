@@ -100,3 +100,19 @@ function appear() {
         var value=selectedValue.innerHTML
         document.getElementById("myAnimation").style.backgroundColor =value;
     }
+
+var check =document.getElementsByName("Seat");
+console.log(check.length);
+for (var a=0;a<check.length;a++){
+    check[a].onchange = function(){
+        document.getElementById("chosenPc").innerHTML ="<ul>";
+        for(var b=0 ; b < check.length ;b++){
+            if(check[b].checked){
+                document.getElementById("chosenPc").innerHTML +="<li>" + check[b].value +"</li>";
+            }
+
+        }
+
+        document.getElementById("chosenPc").innerHTML +="</ul>";
+    }
+}
